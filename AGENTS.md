@@ -33,5 +33,8 @@ functional_files_only = "ONLY create files that are directly required for the fu
 no_example_files = "DO NOT automatically create example files (example.js, example.ts, demo.*, sample.*, etc.) unless EXPLICITLY requested by the user. Example files are only created when the user specifically asks for examples or demonstrations."
 
 [linting]
-rule = "ALWAYS run `bun run lint` at root directory after writing code to ensure code quality."
+rule = "ALWAYS run `npm run lint` at root directory after writing code to ensure code quality."
 linter = "Linter: eslint. NEVER run --unsafe, manually fix all errors."
+
+[package_manager]
+rule = "ALWAYS use npm for package management. DO NOT use bun, yarn, or pnpm."
