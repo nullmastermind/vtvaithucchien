@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -6,8 +7,13 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <p className="text-lg font-semibold">Yên Hoà</p>
-            <p className="text-sm">Bản Yên Hoà, Xã Mỹ Lý, Tỉnh Nghệ An</p>
+            <div className="flex items-center justify-center md:justify-start space-x-4">
+              <Image src="/square_logo.png" alt="Yen Hoa Logo" width={120} height={120} />
+              <div>
+                <p className="text-lg font-semibold">Yên Hoà</p>
+                <p className="text-sm">Bản Yên Hoà, Xã Mỹ Lý, Tỉnh Nghệ An</p>
+              </div>
+            </div>
           </div>
           <div className="flex space-x-6">
             <Link href="/" className="hover:text-gray-300">Trang chủ</Link>

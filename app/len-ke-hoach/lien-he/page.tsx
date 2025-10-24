@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Page() {
   return (
     <main>
@@ -12,7 +14,10 @@ export default function Page() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">Thông Tin Liên Hệ</h2>
+            <div className="flex items-center mb-6">
+              <Image src="/square_logo.png" alt="Yen Hoa Logo" width={60} height={60} />
+              <h2 className="text-2xl font-bold ml-4">Thông Tin Liên Hệ</h2>
+            </div>
             <div className="space-y-4">
               <div>
                 <h3 className="font-semibold">Địa chỉ:</h3>

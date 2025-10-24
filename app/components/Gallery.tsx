@@ -8,6 +8,9 @@ const Gallery = () => {
     '/anh-internet/uploaded-thanhthuybna-2023_12_06-_bna-anh-8-2952.jpg',
     '/anh-internet/Hoạt động Giao lưu văn nghệ & Múa sạp.jpg',
     '/anh-internet/Trải nghiệm Nổi bật 2 -Chạm vào Văn hoá & Tình người.jpg',
+    '/anh-ai/du khách học dệt.png',
+    '/anh-ai/nhà.png',
+    '/anh-ai/Xôi.png',
   ];
 
   return (

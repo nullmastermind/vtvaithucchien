@@ -25,7 +25,10 @@ export default function Page() {
         <section className="mb-16">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-1/2 md:pr-8">
-              <h2 className="text-3xl font-bold mb-4">Di Tích Trăm Tuổi</h2>
+              <div className="flex items-center mb-6">
+                <Image src="/square_logo.png" alt="Yen Hoa Logo" width={60} height={60} />
+                <h2 className="text-3xl font-bold ml-4">Di Tích Trăm Tuổi</h2>
+              </div>
               <p className="text-gray-700 leading-relaxed">
                 Nép mình bên dòng Nậm Nơn, Tháp Cổ Yên Hoà là một di tích lịch sử - văn hoá quý giá. Trải qua bao thăng trầm, ngọn tháp vẫn đứng vững, mang trên mình những hoa văn cổ kính và rêu phong của thời gian, kể lại câu chuyện về một thời kỳ đã qua.
               </p>
