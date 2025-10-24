@@ -2,24 +2,29 @@ import Image from 'next/image';
 
 const activities = [
   {
-    title: 'Đi bộ quanh bản & trò chuyện cùng người dân',
-    description: 'Hãy dành một buổi sáng đi bộ trên những con đường đất quanh bản. Mỉm cười và gật đầu chào những người bạn gặp, bạn sẽ nhận lại được sự thân thiện mộc mạc. Đây là cách tốt nhất để cảm nhận sự bình yên.',
-    image: '/activity-walking.jpg',
+    title: 'Tham quan Tháp Cổ Yên Hoà',
+    description: 'Chiêm ngưỡng di tích lịch sử - văn hoá cấp tỉnh, một công trình kiến trúc cổ độc đáo còn lại gần như nguyên vẹn của người Thái trên đất Nghệ An.',
+    image: '/anh-internet/Hoạt động Tham quan Tháp Cổ Yên Hoà.jpg',
   },
   {
-    title: 'Khám phá dòng Nậm Nơn',
-    description: 'Dòng Nậm Nơn là huyết mạch của bản làng. Hãy dạo bước ven bờ, ngắm nhìn những đứa trẻ tắm sông, hay những chiếc thuyền độc mộc lướt đi. Vẻ đẹp của cuộc sống bình dị nằm ở chính đây.',
-    image: '/activity-nam-non-river.jpg',
+    title: 'Tìm hiểu nghề dệt thổ cẩm',
+    description: 'Ghé thăm những nếp nhà sàn, xem đôi tay khéo léo của người phụ nữ Thái dệt nên những tấm thổ cẩm rực rỡ sắc màu và lắng nghe câu chuyện văn hoá sau từng hoa văn.',
+    image: '/anh-internet/Hoạt động Tìm hiểu nghề dệt thổ cẩm.jpg',
   },
   {
-    title: 'Tìm hiểu nghề thủ công truyền thống',
-    description: 'Ghé thăm một gia đình và xem những người phụ nữ Thái tỉ mỉ bên khung cửi dệt vải. Hãy hỏi họ về ý nghĩa của từng hoa văn, bạn sẽ nghe được cả một câu chuyện văn hoá trong đó.',
-    image: '/activity-crafts.jpg',
+    title: 'Thưởng thức ẩm thực bản địa',
+    description: 'Cùng người dân vào bếp, học cách chế biến những món ăn dân dã từ nguyên liệu tươi ngon hái từ vườn nhà, bắt dưới suối và cảm nhận tình người nồng hậu.',
+    image: '/anh-internet/Hoạt động Thưởng thức ẩm thực bản địa.jpg',
   },
   {
-    title: 'Cùng gia đình bản địa chuẩn bị bữa tối',
-    description: 'Trải nghiệm quý giá nhất là được xắn tay áo, vào bếp cùng gia chủ. Cùng nhau nhặt rau rừng, nướng cá, nấu một nồi canh. Bữa tối sẽ trở nên ý nghĩa hơn bao giờ hết.',
-    image: '/activity-cooking.jpg',
+    title: 'Giao lưu văn nghệ & Múa sạp',
+    description: 'Hoà mình vào không khí vui tươi của đêm giao lưu văn nghệ, cùng nắm tay trong điệu lăm vông và thử sức với những điệu nhảy sạp sôi động, vui nhộn.',
+    image: '/anh-internet/Hoạt động Giao lưu văn nghệ & Múa sạp.jpg',
+  },
+  {
+    title: 'Dạo thuyền trên sông Nậm Nơn',
+    description: 'Thong thả dạo thuyền trên dòng Nậm Nơn thơ mộng, ngắm nhìn khung cảnh núi rừng hùng vĩ và cuộc sống yên bình của bản làng đôi bờ.',
+    image: '/anh-internet/Hoạt động Dạo thuyền trên sông Nậm Nơn.jpg',
   },
 ];
 

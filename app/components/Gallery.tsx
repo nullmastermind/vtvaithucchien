@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 const Gallery = () => {
   const images = [
-    '/gallery-1.jpg',
-    '/gallery-2.jpg',
-    '/gallery-3.jpg',
-    '/gallery-4.jpg',
-    '/gallery-5.jpg',
-    '/gallery-6.jpg',
+    '/anh-internet/Hoạt động Tìm hiểu nghề dệt thổ cẩm.jpg',
+    '/anh-internet/uploaded-thanhthuybna-2023_12_06-_bna-anh-1-7545.jpg',
+    '/anh-internet/Hoạt động Dạo thuyền trên sông Nậm Nơn.jpg',
+    '/anh-internet/uploaded-thanhthuybna-2023_12_06-_bna-anh-8-2952.jpg',
+    '/anh-internet/Hoạt động Giao lưu văn nghệ & Múa sạp.jpg',
+    '/anh-internet/Trải nghiệm Nổi bật 2 -Chạm vào Văn hoá & Tình người.jpg',
   ];
 
   return (

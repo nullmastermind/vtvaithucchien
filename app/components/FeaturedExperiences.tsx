@@ -3,19 +3,19 @@ import Image from 'next/image';
 const FeaturedExperiences = () => {
   const experiences = [
     {
-      title: 'Chạm vào sự tĩnh lặng',
-      description: 'Leo lên một ngọn đồi quanh bản, hít thở không khí trong lành và để tầm mắt ôm trọn lấy những mái nhà sàn yên bình.',
-      image: '/experience-1.jpg'
+      title: 'Chạm vào Lịch sử',
+      description: 'Dạo bước bên chân tháp cổ, cảm nhận dấu ấn thời gian và lắng nghe câu chuyện của di tích trăm năm tuổi.',
+      image: '/anh-internet/Trải nghiệm Nổi bật - Chạm vào Lịch sử.jpg'
     },
     {
-      title: 'Chạm vào văn hoá',
-      description: 'Ở nhà sàn, ăn bữa cơm địa phương, và để những câu chuyện sưởi ấm tâm hồn bạn.',
-      image: '/experience-2.jpg'
+      title: 'Chạm vào Văn hoá & Tình người',
+      description: 'Cùng chuẩn bị và thưởng thức mâm cơm đậm đà hương vị bản địa, nơi tình người nồng hậu được sẻ chia.',
+      image: '/anh-internet/Trải nghiệm Nổi bật 2 -Chạm vào Văn hoá & Tình người.jpg'
     },
     {
-      title: 'Chạm vào hương vị',
-      description: 'Vị cay nồng của mắc khén, vị dẻo thơm của xôi tím - hương vị của núi rừng chân thật nhất.',
-      image: '/experience-3.jpg'
+      title: 'Chạm vào Thiên nhiên',
+      description: 'Lướt thuyền trên dòng Nậm Nơn xanh biếc, hít thở không khí trong lành và ôm trọn lấy cảnh sắc hùng vĩ.',
+      image: '/anh-internet/Trải nghiệm Nổi bật 3 -Chạm vào thiên nhiên.jpg'
     },
   ];
 

@@ -2,30 +2,38 @@ import Image from 'next/image';
 
 const albums = [
   {
-    name: 'Cuộc sống thường ngày',
+    name: 'Di Tích Vượt Thời Gian',
     images: [
-      { src: '/gallery/daily-life-1.jpg', alt: 'Người dân làm nương rẫy' },
-      { src: '/gallery/daily-life-2.jpg', alt: 'Trẻ em tắm sông' },
-      { src: '/gallery/daily-life-3.jpg', alt: 'Thuyền độc mộc trên sông Nậm Nơn' },
-      { src: '/gallery/daily-life-4.jpg', alt: 'Một góc bếp củi' },
+      { src: '/anh-internet/Câu chuyện Yên Hòa - header.webp', alt: 'Chi tiết hoa văn Tháp Cổ' },
+      { src: '/anh-internet/Hoạt động Tham quan Tháp Cổ Yên Hoà.jpg', alt: 'Toàn cảnh Tháp Cổ Yên Hoà' },
+      { src: '/anh-internet/Minh họa tháp cổ 1.webp', alt: 'Góc nhìn uy nghiêm của Tháp Cổ' },
+      { src: '/anh-internet/Minh họa tháp cổ 2.webp', alt: 'Tháp Cổ hài hoà với bản làng' },
+      { src: '/anh-internet/Minh họa tháp cổ 3.jpg', alt: 'Nét văn hoá bên chân tháp' },
+      { src: '/anh-internet/thap-4-1669194916.webp', alt: 'Tháp cổ rêu phong' },
     ],
   },
   {
-    name: 'Phong cảnh bản làng',
+    name: 'Nét Đẹp Con Người & Văn Hoá',
     images: [
-      { src: '/gallery/landscape-1.jpg', alt: 'Toàn cảnh thung lũng' },
-      { src: '/gallery/landscape-2.jpg', alt: 'Nhà sàn bên sườn đồi' },
-      { src: '/gallery/landscape-3.jpg', alt: 'Con đường đất quanh co' },
-      { src: '/gallery/landscape-4.jpg', alt: 'Dòng sông Nậm Nơn hiền hoà' },
+      { src: '/anh-internet/Hoạt động Tìm hiểu nghề dệt thổ cẩm.jpg', alt: 'Nghề dệt thổ cẩm truyền thống' },
+      { src: '/anh-internet/Hoạt động Thưởng thức ẩm thực bản địa.jpg', alt: 'Chuẩn bị mâm cơm đậm đà' },
+      { src: '/anh-internet/Hoạt động Giao lưu văn nghệ & Múa sạp.jpg', alt: 'Điệu múa sạp sôi động' },
+      { src: '/anh-internet/Trải nghiệm Nổi bật - Chạm vào Lịch sử.jpg', alt: 'Trang phục truyền thống của người Thái' },
+      { src: '/anh-internet/Trải nghiệm Nổi bật 2 -Chạm vào Văn hoá & Tình người.jpg', alt: 'Mâm cơm ấm cúng tình người' },
+      { src: '/anh-internet/Ảnh minh hoạ cho phần Lưu trú.jpg', alt: 'Chào đón khách tại homestay' },
+      { src: '/anh-internet/uploaded-thanhthuybna-2023_12_06-_bna-anh-1-7545.jpg', alt: 'Nguyên liệu tươi ngon' },
+      { src: '/anh-internet/uploaded-thanhthuybna-2023_12_06-_bna-anh-11-4324.jpg', alt: 'Gia vị núi rừng' },
+      { src: '/anh-internet/uploaded-thanhthuybna-2023_12_06-_bna-anh-8-2952.jpg', alt: 'Quây quần bên mâm cơm' },
     ],
   },
   {
-    name: 'Nụ cười Yên Hoà',
+    name: 'Phong Cảnh Hùng Vĩ',
     images: [
-      { src: '/gallery/smiles-1.jpg', alt: 'Nụ cười người già' },
-      { src: '/gallery/smiles-2.jpg', alt: 'Nụ cười trẻ thơ' },
-      { src: '/gallery/smiles-3.jpg', alt: 'Nụ cười trong lao động' },
-      { src: '/gallery/smiles-4.jpg', alt: 'Nụ cười bên mâm cơm' },
+      { src: '/anh-internet/hero section.webp', alt: 'Toàn cảnh Yên Hoà bên dòng Nậm Nơn' },
+      { src: '/anh-internet/Hoạt động Dạo thuyền trên sông Nậm Nơn.jpg', alt: 'Thuyền trên sông Nậm Nơn' },
+      { src: '/anh-internet/Trải nghiệm Nổi bật 3 -Chạm vào thiên nhiên.jpg', alt: 'Vẻ đẹp hùng vĩ của Yên Hoà' },
+      { src: '/anh-internet/481184548_633570049397881_2631909739103059726_n.jpg', alt: 'Bản làng yên bình' },
+      { src: '/anh-internet/481236324_633570106064542_6568222664540992041_n.jpg', alt: 'Góc nhìn từ trên cao' },
     ],
   },
 ];
